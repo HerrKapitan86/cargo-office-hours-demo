@@ -1,10 +1,10 @@
 {
-  "version": "baseline",
+  "version": "services-excluded",
   "goal": "Prioritise B2B accounts for a sales-operations product.",
   "as_of": "2026-10-29",
   "employee_min": 50,
   "employee_max": 200,
-  "excluded_business_models": [],
+  "excluded_business_models": ["services"],
   "priority_signal": "sales_team_expansion",
   "signal_max_age_days": 45
 }
