@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": [
+      "node"
+    ],
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "scripts/**/*.ts",
+    "infra/**/*.ts",
+    "outputs/**/*.ts",
+    ".cargo-ai/**/*.d.ts",
+    "evals/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "infra/apps/*/**",
+    "infra/workers/*/**"
+  ]
+}

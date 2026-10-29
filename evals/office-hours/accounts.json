@@ -1,0 +1,62 @@
+[
+  {
+    "account_key": "northstar",
+    "company": "Northstar",
+    "business_model": "software",
+    "employees": 100,
+    "is_b2b": true,
+    "signal_type": "sales_team_expansion",
+    "signal_observed_at": "2026-10-22",
+    "profile_evidence": "Synthetic fixture: B2B software company with 100 employees.",
+    "signal_evidence": "Synthetic fixture: announced a new VP of Sales and an expanding sales team on 22 October.",
+    "source_ref": "fixture:northstar"
+  },
+  {
+    "account_key": "juniper-studio",
+    "company": "Juniper Studio",
+    "business_model": "services",
+    "employees": 100,
+    "is_b2b": true,
+    "signal_type": "sales_team_expansion",
+    "signal_observed_at": "2026-10-24",
+    "profile_evidence": "Synthetic fixture: B2B services studio with 100 employees; revenue comes from client projects, with no software product.",
+    "signal_evidence": "Synthetic fixture: announced a new Head of Sales on 24 October.",
+    "source_ref": "fixture:juniper-studio"
+  },
+  {
+    "account_key": "harbor",
+    "company": "Harbor",
+    "business_model": "software",
+    "employees": 85,
+    "is_b2b": true,
+    "signal_type": "",
+    "signal_observed_at": "",
+    "profile_evidence": "Synthetic fixture: B2B software company with 85 employees.",
+    "signal_evidence": "Synthetic fixture: no sales-team expansion signal is present in this sample.",
+    "source_ref": "fixture:harbor"
+  },
+  {
+    "account_key": "sprout",
+    "company": "Sprout",
+    "business_model": "software",
+    "employees": 12,
+    "is_b2b": true,
+    "signal_type": "sales_team_expansion",
+    "signal_observed_at": "2026-10-26",
+    "profile_evidence": "Synthetic fixture: B2B software company with 12 employees.",
+    "signal_evidence": "Synthetic fixture: announced its first sales hire on 26 October.",
+    "source_ref": "fixture:sprout"
+  },
+  {
+    "account_key": "mosaic",
+    "company": "Mosaic",
+    "business_model": "unknown",
+    "employees": null,
+    "is_b2b": null,
+    "signal_type": "",
+    "signal_observed_at": "",
+    "profile_evidence": "Synthetic fixture: a name is known, but customer type, business model and company size have not been established.",
+    "signal_evidence": "Synthetic fixture: no verified signal is present.",
+    "source_ref": "fixture:mosaic"
+  }
+]

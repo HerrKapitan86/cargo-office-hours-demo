@@ -1,0 +1,35 @@
+
+> demo
+> tsx scripts/ops/office-hours.ts
+
+LOCAL PREVIEW: five synthetic accounts, no Cargo API calls.
+
+Comparing the baseline with a prepared proposal, not a live AI response.
+
+Northstar: Contact first → Contact first
+  Baseline: B2B, 100 employees, with a sales-team expansion signal 7 days ago.
+  Proposed: B2B, 100 employees, with a sales-team expansion signal 7 days ago.
+  Next step: Review the signal and prepare a relevant first conversation.
+
+Juniper Studio: Contact first → Exclude
+  Baseline: B2B, 100 employees, with a sales-team expansion signal 5 days ago.
+  Proposed: services is excluded by the reviewed targeting rule.
+  Next step: Keep out of this target list.
+
+Harbor: Keep watching → Keep watching
+  Baseline: Account fits, with no matching buying signal in the supplied evidence.
+  Proposed: Account fits, with no matching buying signal in the supplied evidence.
+  Next step: Watch for a relevant signal before prioritising outreach.
+
+Sprout: Exclude → Exclude
+  Baseline: 12 employees is outside the 50-200 target range.
+  Proposed: 12 employees is outside the 50-200 target range.
+  Next step: Keep out of this target list.
+
+Mosaic: Research needed → Research needed
+  Baseline: Account evidence is incomplete.
+  Proposed: Account evidence is incomplete.
+  Next step: Verify customer type, business model and employee count.
+
+1 of 5 priorities changed. Active rules were not edited.
+This is a comparison on the same sample. Test fresh accounts before drawing broader conclusions.
